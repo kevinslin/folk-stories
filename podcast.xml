@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Turing-Incomplete</title>
+    <description>A Podcast About Programming</description>
+    <copyright>2014-2018 Turing-Incomplete</copyright>
+    <language>en-us</language>
+    <link>http://feeds.feedburner.com/Turing-Incomplete</link>
+    <image>
+      <link>http://feeds.feedburner.com/Turing-Incomplete</link>
+      <title>Turing-Incomplete</title>
+      <url>http://turing.cool/cover-art-512.png</url>
+    </image>
+    <googleplay:author>Turing-Incomplete</googleplay:author>
+    <googleplay:email>podcast@turing.cool</googleplay:email>
+    <itunes:author>Turing-Incomplete</itunes:author>
+    <itunes:email>podcast@turing.cool</itunes:email>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://turing.cool/cover-art-1400.png"/>
+    <itunes:summary>A Podcast About Programming</itunes:summary>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:keywords>javascript,ruby,tdd</itunes:keywords>
+    <item>
+      <title>1: Johan Liedgren</title>
+      <link>http://turing.cool/1/</link>
+      <description>We mourn the death of TDD.
+
+
+  TDD is Dead
+
+</description>
+      <content:encoded>&lt;p&gt;We mourn the death of TDD.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html"&gt;TDD is Dead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;&lt;p&gt;These shownotes are also available at&amp;nbsp;&lt;a href="http://turing.cool/1/"&gt;turing.cool/1&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://turing.cool"&gt;turing.cool&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://twitter.com/turingcool"&gt;@turingcool&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://github.com/turing-incomplete/turing-incomplete"&gt;github.com/turing-incomplete&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Justin Campbell:&amp;nbsp;&lt;a href="http://twitter.com/justincampbell"&gt;@justincampbell&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Jearvon Dharrie:&amp;nbsp;&lt;a href="http://twitter.com/jearvon"&gt;@jearvon&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Pam Selle:&amp;nbsp;&lt;a href="http://twitter.com/pamasaur"&gt;@pamasaur&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Len Smith:&amp;nbsp;&lt;a href="http://twitter.com/ignu"&gt;@ignu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</content:encoded>
+      <pubDate>Mon, 05 May 2014 15:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://turing.cool/1/</guid>
+      <media:content url="http://episodes.turing.cool/Turing-Incomplete-1.mp3" type="audio/mpeg" fileSize="33906530"/>
+      <enclosure url="http://episodes.turing.cool/Turing-Incomplete-1.mp3" type="audio/mpeg" length="33906530"/>
+      <itunes:subtitle>We mourn the death of TDD.
+
+
+  TDD is Dead
+
+</itunes:subtitle>
+      <itunes:summary>We mourn the death of TDD.
+
+
+  TDD is Dead
+
+</itunes:summary>
+      <itunes:author>Turing-Incomplete</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2119</itunes:duration>
+      <itunes:keywords>javascript,ruby,tdd</itunes:keywords>
+      <itunes:image href="http://turing.cool/cover-art-1400.png"/>
+    </item>
+  </channel>
+</rss>
