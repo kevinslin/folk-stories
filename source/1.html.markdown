@@ -1,6 +1,6 @@
 ---
 episode: 1
-title: Johan Liedgren
+title: TDD is Dead?
 date: 2014-05-05
 tags: javascript, ruby, tdd
 mp3: http://episodes.turing.cool/Turing-Incomplete-1.mp3

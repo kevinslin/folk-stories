@@ -1,5 +1,6 @@
 require 'yaml'
 require 'mp3info'
+require 'middleman-gh-pages'
 
 class Mp3Details
   attr_accessor :file, :file_size, :audio_length, :episode_number, :date

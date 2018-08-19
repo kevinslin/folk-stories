@@ -10,3 +10,5 @@ gem 'middleman-google-analytics'
 gem 'slim'
 gem 'rake'
 gem 'ruby-mp3info'
+gem 'middleman-gh-pages'
+
