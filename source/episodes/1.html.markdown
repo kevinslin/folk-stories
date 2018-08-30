@@ -1,14 +1,54 @@
 ---
 episode: 1
-title: Johan Liedgren
+title: Directing the Narrative with Johan Liedgren
 date: 2014-05-05
-tags: javascript, ruby, tdd
+tags: [film]
 mp3: http://episodes.turing.cool/Turing-Incomplete-1.mp3
 explicit: false
 file_size: 33906530
 seconds: 2119
 ---
+<style>
+.profile {
+    height: 500px;
+}
+</style>
 
-We mourn the death of TDD.
+<img src="https://static1.squarespace.com/static/56b10adc37013bf290225e83/t/581f7ec4e4fcb51e9e15d985/1478459084927/?format=750w" class="profile">
 
- * [TDD is Dead](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)
+Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures. His clients include major brands like Amazon, Nike and Warner Brothers.
+
+Born in Sweden, Johan studied philosophy in college but put the degree on hold to be one of the first employees in Microsoft at its European Headquarters in Paris.After 8 years at Microsoft conducting corporate strategies and negotiations, Johan left the corporate gig to pursue consulting, startups and film making.
+
+Today, Johan is active as both a consultant and a film director. He starts shooting his newest film in eastern Washington starting this month of September.
+
+
+### Show Notes
+- early years - copywriting, consulting and corporations
+- just do it - Johan's start to film making
+- early films - courtship, romance and the gray zones of courtship
+- the Johan method of tackling creative bottlenecks
+- the start and process of dream journaling (over 2000 recorded dreams and counting)
+- relying on your gut to find the right people
+- the pit bull incident - being calm under pressure
+- morning rituals
+- living a "balanced" life
+- deciding what to do next
+- the art of story telling
+
+### Links
+- Johan's IMDB profile: https://www.imdb.com/name/nm2259749/
+- Films
+    - Mother Nature: https://www.imdb.com/title/tt2304831/
+    - The Very Private Work of Sister K: https://www.imdb.com/title/tt4531984/
+    - How to Enter a Bedroom: https://www.imdb.com/title/tt1297930/
+- Baby Shoes (Ernest Hemingway): https://en.wikipedia.org/wiki/For_sale:_baby_shoes,_never_worn
+- I'm Not There (Todd Haynes): https://www.imdb.com/title/tt0368794/
+- The Braindead Microphone (George Saunders): https://amzn.to/2obWWTZ
+
+### Contact
+- LinkedIn: https://www.linkedin.com/in/johan-liedgren-5461443a/
+- Johan's Website: http://www.liedgren.com/
+- Johan's Facebook: https://www.facebook.com/johan.liedgren
+- Johan's Medium: https://medium.com/@johan_38106
+
