@@ -93,15 +93,15 @@ helpers do
   end
 
   def podcast_email
-    "podcast@turing.cool"
+    "kevinslin8@gmail.com"
   end
 
   def podcast_name
-    "Turing-Incomplete"
+    "Folk Stories"
   end
 
   def podcast_description
-    "A Podcast About Programming"
+    "Stories from People Around You"
   end
 
   def stickers_url
@@ -120,7 +120,7 @@ helpers do
   end
 
   def twitter_url
-    "https://twitter.com/turingcool"
+    "https://twitter.com/_folkstories"
   end
 
   def url(path = "")
