@@ -11,4 +11,5 @@ gem 'slim'
 gem 'rake'
 gem 'ruby-mp3info'
 gem 'middleman-gh-pages'
+gem 'middleman-s3_sync'
 

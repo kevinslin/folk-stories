@@ -5,6 +5,7 @@ Slim::Engine.disable_option_validator!
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+set :relative_links, true
 
 set :slim, layout_engine: :slim
 
@@ -21,7 +22,7 @@ end
 
 configure :build do
   activate :asset_hash, exts: %w[css js]
-  activate :directory_indexes
+  #activate :directory_indexes
   activate :minify_css
   activate :minify_javascript
   activate :relative_assets
@@ -29,6 +30,23 @@ end
 
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-51500963-1'
+end
+
+activate :s3_sync do |s3_sync|
+ s3_sync.bucket                     = ENV['S3_BUCKET'] # The name of the S3 bucket you are targetting. This is globally unique.
+ s3_sync.region                     = 'us-west-2'     # The AWS region for your bucket.
+ s3_sync.aws_access_key_id          = ENV['ACCESS_KEY']
+ s3_sync.aws_secret_access_key      = ENV['SECRET_KEY']
+ s3_sync.delete                     = true # We delete stray files by default.
+ s3_sync.after_build                = false # We do not chain after the build step by default.
+ s3_sync.prefer_gzip                = true
+ s3_sync.path_style                 = true
+ s3_sync.reduced_redundancy_storage = false
+ s3_sync.acl                        = 'public-read'
+ s3_sync.encryption                 = false
+ s3_sync.version_bucket             = false
+ s3_sync.index_document = 'index.html'
+ s3_sync.error_document             = '404.html'
 end
 
 helpers do
@@ -74,6 +92,14 @@ helpers do
 
   def picks_partial(episode)
     partial "picks", locals: { episode_picks: episode.data['picks'] }
+  end
+
+  def rss_url
+    "/podcast.xml"
+  end
+
+  def mail_list_url
+    "TODO"
   end
 
   def feedburner_url
@@ -126,6 +152,6 @@ helpers do
   def url(path = "")
     path = path.gsub(/^\//, '')
 
-    "http://turing.cool/#{path}"
+    "kevinslin-ft.s3-website-us-west-2.amazonaws.com/#{path}"
   end
 end
