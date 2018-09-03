@@ -3,10 +3,10 @@ episode: 1
 title: Directing the Narrative with Johan Liedgren
 date: 2014-05-05
 tags: [film]
-mp3: http://episodes.turing.cool/Turing-Incomplete-1.mp3
 explicit: false
-file_size: 33906530
-seconds: 2119
+mp3: /podcasts/johan_liedgren.mp3
+seconds: 4643
+file_size: 34099
 ---
 <style>
 .profile {
@@ -18,12 +18,13 @@ seconds: 2119
 
 Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures. His clients include major brands like Amazon, Nike and Warner Brothers.
 
-Born in Sweden, Johan studied philosophy in college but put the degree on hold to be one of the first employees in Microsoft at its European Headquarters in Paris.After 8 years at Microsoft conducting corporate strategies and negotiations, Johan left the corporate gig to pursue consulting, startups and film making.
+Born in Sweden, Johan studied philosophy in college but put the degree on hold to be one of the first employees in Microsoft at its European Headquarters in Paris. After 8 years at Microsoft conducting corporate strategies and negotiations, Johan left the corporate gig to pursue consulting, startups and film making.
 
 Today, Johan is active as both a consultant and a film director. He starts shooting his newest film in eastern Washington starting this month of September.
 
+If you want to leave feedback or nominate folks to the show, please send emails to feedback(at)folkstories.org
 
-### Show Notes
+### Notes
 - early years - copywriting, consulting and corporations
 - just do it - Johan's start to film making
 - early films - courtship, romance and the gray zones of courtship

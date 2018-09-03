@@ -37,7 +37,7 @@ activate :s3_sync do |s3_sync|
  s3_sync.region                     = 'us-west-2'     # The AWS region for your bucket.
  s3_sync.aws_access_key_id          = ENV['ACCESS_KEY']
  s3_sync.aws_secret_access_key      = ENV['SECRET_KEY']
- s3_sync.delete                     = true # We delete stray files by default.
+ s3_sync.delete                     = false # We delete stray files by default.
  s3_sync.after_build                = false # We do not chain after the build step by default.
  s3_sync.prefer_gzip                = true
  s3_sync.path_style                 = true
@@ -146,12 +146,12 @@ helpers do
   end
 
   def twitter_url
-    "https://twitter.com/_folkstories"
+    "https://twitter.com/kevins8"
   end
 
   def url(path = "")
     path = path.gsub(/^\//, '')
 
-    "kevinslin-ft.s3-website-us-west-2.amazonaws.com/#{path}"
+    "folkstories.org/#{path}"
   end
 end
