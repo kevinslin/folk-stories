@@ -1,7 +1,7 @@
 ---
 episode: 1
 title: Directing the Narrative with Johan Liedgren
-date: 2014-05-05
+date: 2018-09-10
 tags: [film]
 explicit: false
 mp3: /podcasts/johan_liedgren.mp3
