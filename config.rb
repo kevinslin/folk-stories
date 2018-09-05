@@ -2,6 +2,10 @@ require 'active_support/core_ext/integer/inflections'
 
 Slim::Engine.disable_option_validator!
 
+def is_prod
+  ENV['S3_BUCKET'] == 'kevinslin-ft'
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -28,8 +32,17 @@ configure :build do
   activate :relative_assets
 end
 
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-51500963-1'
+
+if is_prod
+  acl = 'public-read'
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-125239344-1'
+  end
+else
+  acl = 'authenticated-read'
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-125239344-2'
+  end
 end
 
 activate :s3_sync do |s3_sync|
@@ -42,7 +55,7 @@ activate :s3_sync do |s3_sync|
  s3_sync.prefer_gzip                = true
  s3_sync.path_style                 = true
  s3_sync.reduced_redundancy_storage = false
- s3_sync.acl                        = 'public-read'
+ s3_sync.acl                        = acl
  s3_sync.encryption                 = false
  s3_sync.version_bucket             = false
  s3_sync.index_document = 'index.html'
