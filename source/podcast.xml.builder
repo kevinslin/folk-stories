@@ -10,7 +10,7 @@ xml.rss(
   xml.channel do
     xml.title podcast_name
     xml.description podcast_description
-    xml.copyright "2014-#{Time.now.year} #{podcast_name}"
+    xml.copyright "2018-#{Time.now.year} #{podcast_name}"
     xml.language "en-us"
     xml.link feedburner_url
 
@@ -29,9 +29,9 @@ xml.rss(
     xml.itunes :image, href: cover_art_url(:large)
     xml.itunes :summary, podcast_description
 
-    xml.itunes :category, text: "Technology" do
-      xml.itunes :category, text: "Software How-To"
-      xml.itunes :category, text: "Tech News"
+    xml.itunes :category, text: "Society & Culture" do
+      xml.itunes :category, text: "Business"
+      xml.itunes :category, text: "Technology"
     end
 
     xml.itunes :keywords, tags.join(',')
@@ -47,8 +47,8 @@ xml.rss(
         xml.content :encoded, episode.body + picks_partial(episode) + partial(:shownotes_footer, locals: { episode: episode })
         xml.pubDate (episode.date + (15 * 60 * 60)).strftime("%a, %d %b %Y %H:%M:%S %z")
         xml.guid url(episode.url), isPermaLink: "true"
-        xml.media :content, url: metadata.mp3, type: "audio/mpeg", fileSize: metadata.file_size
-        xml.enclosure url: metadata.mp3, type: "audio/mpeg", length: metadata.file_size
+        xml.media :content, url: url(metadata.mp3), type: "audio/mpeg", fileSize: metadata.file_size
+        xml.enclosure url: url(metadata.mp3), type: "audio/mpeg", length: metadata.file_size
 
         xml.itunes :subtitle, episode_text
         xml.itunes :summary, episode_text
