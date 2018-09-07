@@ -5,8 +5,8 @@ date: 2018-09-10
 tags: [film]
 explicit: false
 mp3: /podcasts/johan_liedgren.mp3
-seconds: 4643
-file_size: 34099
+seconds: 4598
+file_size: 33792
 ---
 <style>
 .profile {
@@ -46,6 +46,7 @@ If you want to leave feedback or nominate folks to the show, please send emails 
 - [Baby Shoes (Ernest Hemingway)](https://en.wikipedia.org/wiki/For_sale:_baby_shoes,_never_worn)
 - [I'm Not There (Todd Haynes)](https://www.imdb.com/title/tt0368794/)
 - [The Braindead Microphone (George Saunders)](https://amzn.to/2obWWTZ)
+- [FolkStories](http://folkstories.org/): Link to the FolkStories website
 
 ### Contact
 - [LinkedIn](https://www.linkedin.com/in/johan-liedgren-5461443a/)

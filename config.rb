@@ -111,6 +111,10 @@ helpers do
     "/podcast.xml"
   end
 
+  def about_url
+    "/about.html"
+  end
+
   def mail_list_url
     "TODO"
   end
