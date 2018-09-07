@@ -8,11 +8,6 @@ mp3: /podcasts/johan_liedgren.mp3
 seconds: 4598
 file_size: 33792
 ---
-<style>
-.profile {
-    height: 500px;
-}
-</style>
 
 <img src="https://static1.squarespace.com/static/56b10adc37013bf290225e83/t/581f7ec4e4fcb51e9e15d985/1478459084927/?format=750w" class="profile">
 

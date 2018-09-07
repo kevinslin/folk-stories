@@ -169,6 +169,6 @@ helpers do
   def url(path = "")
     path = path.gsub(/^\//, '')
 
-    "folkstories.org/#{path}"
+    "http://folkstories.org/#{path}"
   end
 end
