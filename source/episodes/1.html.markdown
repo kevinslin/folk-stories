@@ -1,11 +1,13 @@
 ---
 episode: 1
 title: Directing the Narrative with Johan Liedgren
-date: 2018-09-10
+date: 2018-09-07
 tags: [film]
 explicit: false
 mp3: /podcasts/johan_liedgren.mp3
 seconds: 4598
+summary: |
+    Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures. His clients include major brands like Amazon, Nike and Warner Brothers. Born in Sweden, Johan studied philosophy in college but put the degree on hold to be one of the first employees in Microsoft at its European Headquarters in Paris. After 8 years at Microsoft conducting corporate strategies and negotiations, Johan left the corporate gig to pursue consulting, startups and film making.  Today, Johan is active as both a consultant and a film director. He starts shooting his newest film in eastern Washington starting this month of September.
 file_size: 33792
 ---
 

@@ -14,6 +14,7 @@ set :relative_links, true
 set :slim, layout_engine: :slim
 
 page '/podcast.xml', layout: false
+page '/feed.xml', layout: false
 
 activate :blog do |blog|
   blog.layout = "episode.html"
@@ -128,7 +129,14 @@ helpers do
   end
 
   def google_play_url
-    "https://play.google.com/music/m/Ibai3cxtwev5k6evvk35mrwf2ry?t=Turing-Incomplete"
+    "https://play.google.com/music/m/Igqjukscruowpmyxau526hg6t2u?t=Folk_Stories"
+  end
+
+  def stitcher_url
+    "https://www.stitcher.com/podcast/kevin-s-lin/folk-stories"
+  end
+
+  def tunein_url
   end
 
   def itunes_url

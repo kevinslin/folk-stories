@@ -2,14 +2,13 @@ xml.instruct!
 xml.rss(
   'xmlns:atom' => "http://www.w3.org/2005/Atom",
   'xmlns:itunes' => "http://www.itunes.com/dtds/podcast-1.0.dtd",
-  'xmlns:googleplay' => "http://www.google.com/schemas/play-podcasts/1.0",
   'xmlns:content' => "http://purl.org/rss/1.0/modules/content/",
   'xmlns:media' => "http://search.yahoo.com/mrss/",
   'version' => "2.0"
 ) do
   xml.channel do
     xml.title podcast_name
-    xml.atom :link, href: url('podcast.xml'), rel: "self", type: "application/rss+xml"
+    xml.atom :link, href: url('feed.xml'), rel: "self", type: "application/rss+xml"
     xml.description podcast_description
     xml.copyright "2018-#{Time.now.year} #{podcast_name}"
     xml.language "en-us"
@@ -18,13 +17,8 @@ xml.rss(
     xml.image do
       xml.link feedburner_url
       xml.title podcast_name
-      xml.url cover_art_url(:medium)
+      xml.url cover_art_url(:large)
     end
-
-    xml.googleplay :author, podcast_name
-    xml.googleplay :email, podcast_email
-    xml.googleplay :image, href: cover_art_url(:large)
-
 
     xml.itunes :author, podcast_name
     xml.itunes :owner do
