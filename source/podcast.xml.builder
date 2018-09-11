@@ -9,8 +9,8 @@ xml.rss(
 ) do
   xml.channel do
     xml.title podcast_name
-    xml.atom :link, href: url('podcast.xml'), rel: "self", type: "application/rss+xml"
-    xml.description podcast_description
+    xml.atom :link, href: url(File.basename(__FILE__, '.builder')), rel: "self", type: "application/rss+xml"
+    xml.description podcast_description_long
     xml.copyright "2018-#{Time.now.year} #{podcast_name}"
     xml.language "en-us"
     xml.link feedburner_url
@@ -18,13 +18,12 @@ xml.rss(
     xml.image do
       xml.link feedburner_url
       xml.title podcast_name
-      xml.url cover_art_url(:medium)
+      xml.url cover_art_url(:large)
     end
 
     xml.googleplay :author, podcast_name
     xml.googleplay :email, podcast_email
     xml.googleplay :image, href: cover_art_url(:large)
-
 
     xml.itunes :author, podcast_name
     xml.itunes :owner do
@@ -33,7 +32,7 @@ xml.rss(
     end
     xml.itunes :explicit, "no"
     xml.itunes :image, href: cover_art_url(:large)
-    xml.itunes :summary, podcast_description
+    xml.itunes :summary, podcast_description_long
 
     xml.itunes :category, text: "Society & Culture"
     xml.itunes :keywords, tags.join(',')
@@ -45,7 +44,7 @@ xml.rss(
 
         xml.title "#{metadata.episode}: #{metadata.title}"
         xml.link url(episode.url)
-        xml.description episode_text
+        xml.description metadata.summary
         xml.content :encoded, episode.body + picks_partial(episode) + partial(:shownotes_footer, locals: { episode: episode })
         xml.pubDate (episode.date + (15 * 60 * 60)).strftime("%a, %d %b %Y %H:%M:%S %z")
         xml.guid url(episode.url), isPermaLink: "true"
@@ -53,7 +52,7 @@ xml.rss(
         xml.enclosure url: url(metadata.mp3), type: "audio/mpeg", length: metadata.file_size
 
         xml.itunes :subtitle, "Stories from People Around You"
-        xml.itunes :summary, episode_text
+        xml.itunes :summary, metadata.summary
         xml.itunes :author, podcast_name
         xml.itunes :explicit, "no"
         xml.itunes :duration, metadata.seconds

@@ -140,7 +140,7 @@ helpers do
   end
 
   def itunes_url
-    "https://itunes.apple.com/us/podcast/turing-incomplete/id886675939"
+    "https://itunes.apple.com/us/podcast/folk-stories/id1435808877"
   end
 
   def podcast_email
@@ -152,7 +152,11 @@ helpers do
   end
 
   def podcast_description
-    "Stories from People Around You"
+    "Stories from people around you."
+  end
+
+  def podcast_description_long
+    "This is a podcast about people. Every week, we have an in depth conversation with a person of interest. We'll talk about how they got here, what they're up to and why they do what they do. The aim is to collect narratives from people from all walks of lives, ranging from tech CEOs to Film Directors and Irish Folk Singers. Folk Stories is meant to be a platform to hear their stories, learn their lessons and explore what its like to walk a day in their shoes."
   end
 
   def stickers_url
