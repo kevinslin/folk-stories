@@ -45,7 +45,7 @@ xml.rss(
         xml.title "#{metadata.episode}: #{metadata.title}"
         xml.link url(episode.url)
         xml.description episode_text
-        xml.content :encoded, episode.body + picks_partial(episode) + partial(:shownotes_footer, locals: { episode: episode })
+        xml.content :encoded, profile_img(episode.data.image) + episode.body + picks_partial(episode) + partial(:shownotes_footer, locals: { episode: episode })
         xml.pubDate (episode.date + (15 * 60 * 60)).strftime("%a, %d %b %Y %H:%M:%S %z")
         xml.guid url(episode.url), isPermaLink: "true"
         xml.media :content, url: url(metadata.mp3), type: "audio/mpeg", fileSize: metadata.file_size

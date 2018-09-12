@@ -168,6 +168,10 @@ helpers do
     "Stories from people around you."
   end
 
+  def profile_img(img_url)
+    "<img src='#{url(img_url)}' class='profile'/>"
+  end
+
   def podcast_description_long
     "This is a podcast about people. Every week, we have an in depth conversation with a person of interest. We'll talk about how they got here, what they're up to and why they do what they do. The aim is to collect narratives from people from all walks of lives, ranging from tech CEOs to Film Directors and Irish Folk Singers. Folk Stories is meant to be a platform to hear their stories, learn their lessons and explore what its like to walk a day in their shoes."
   end
@@ -194,6 +198,14 @@ helpers do
   def url(path = "")
     path = path.gsub(/^\//, '')
 
-    "http://folkstories.org/#{path}"
+    "#{site_url}/#{path}"
+  end
+
+  def site_url
+    if ENV['S3_BUCKET'] == 'kevinslin-ft-staging'
+      "http://kevinslin-ft-staging.s3-website-us-west-2.amazonaws.com"
+    else
+      "http://folkstories.org"
+    end
   end
 end

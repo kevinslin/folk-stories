@@ -8,9 +8,8 @@ mp3: /podcasts/johan_liedgren.mp3
 seconds: 4598
 subtitle: Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures
 file_size: 33792
+image: "/images/johan_liedgren.jpeg"
 ---
-
-<img src="https://static1.squarespace.com/static/56b10adc37013bf290225e83/t/581f7ec4e4fcb51e9e15d985/1478459084927/?format=750w" class="profile">
 
 Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures. His clients include major brands like Amazon, Nike and Warner Brothers.
 
@@ -35,10 +34,9 @@ If you want to leave feedback or nominate folks to the show, please send emails 
 
 ### Links
 - [Johan's IMDB profile](https://www.imdb.com/name/nm2259749/)
-- Films
-    - [Mother Nature](https://www.imdb.com/title/tt2304831/)
-    - [The Very Private Work of Sister K](https://www.imdb.com/title/tt4531984/)
-    - [How to Enter a Bedroom](https://www.imdb.com/title/tt1297930/)
+- [Mother Nature](https://www.imdb.com/title/tt2304831/)
+- [The Very Private Work of Sister K](https://www.imdb.com/title/tt4531984/)
+- [How to Enter a Bedroom](https://www.imdb.com/title/tt1297930/)
 - [Baby Shoes (Ernest Hemingway)](https://en.wikipedia.org/wiki/For_sale:_baby_shoes,_never_worn)
 - [I'm Not There (Todd Haynes)](https://www.imdb.com/title/tt0368794/)
 - [The Braindead Microphone (George Saunders)](https://amzn.to/2obWWTZ)
