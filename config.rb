@@ -6,6 +6,10 @@ def is_prod
   ENV['S3_BUCKET'] == 'kevinslin-ft'
 end
 
+def is_staging
+  ENV['S3_BUCKET'] == 'kevinslin-ft-staging'
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -38,6 +42,11 @@ if is_prod
   acl = 'public-read'
   activate :google_analytics do |ga|
     ga.tracking_id = 'UA-125239344-1'
+  end
+elsif is_staging
+  acl = 'public-read'
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-125239344-2'
   end
 else
   acl = 'authenticated-read'
@@ -141,6 +150,10 @@ helpers do
 
   def itunes_url
     "https://itunes.apple.com/us/podcast/folk-stories/id1435808877"
+  end
+
+  def podcast_author
+    "Kevin S Lin"
   end
 
   def podcast_email
