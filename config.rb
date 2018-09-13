@@ -173,7 +173,7 @@ helpers do
   end
 
   def podcast_description_long
-    "This is a podcast about people. Every week, we have an in depth conversation with a person of interest. We'll talk about how they got here, what they're up to and why they do what they do. The aim is to collect narratives from people from all walks of lives, ranging from tech CEOs to Film Directors and Irish Folk Singers. Folk Stories is meant to be a platform to hear their stories, learn their lessons and explore what its like to walk a day in their shoes."
+    "This is a podcast about people. Every week, we have an in depth conversation with a person of interest. We'll talk about how they got here, what they're up to and what motivates them. The goals are to highlight people, share their narratives and dive into what they do."
   end
 
   def stickers_url
