@@ -2,7 +2,7 @@
 episode: 1
 title: Directing the Narrative with Johan Liedgren
 date: 2018-09-10
-tags: [film]
+tags: [film, tech]
 explicit: false
 mp3: /podcasts/johan_liedgren.mp3
 seconds: 4598
