@@ -1,0 +1,56 @@
+---
+episode: 3
+title: Taking No Shortcuts with Colm MacCárthaigh
+date: 2018-09-24
+tags: [dev, aws]
+explicit: false
+image: "/images/colm_maccarthaigh.png"
+mp3: /podcasts/colm_maccarthaigh.mp3
+seconds: 4067
+file_size: 31948
+---
+
+Colm MacCárthaigh is a Principal Software Engineer at [Amazon Web Services (AWS)](https://aws.amazon.com/). AWS provides on demand cloud computing services to individuals, companies and governments around the world.
+
+If you're a customer of AWS, Colm has probably had a hand in the services you use - his past projects include Route53, Cloudfront and Elastic Load Balancer. If you like open source software, Colm was heavily involved in the original [Apache HTTP Server](https://httpd.apache.org) and more recently was the driving force behind the release of [s2n](https://github.com/awslabs/s2n), a popular open source C99 implementation of the TLS/SSL protocol. If you're a fan of Irish folk music, Colm is part of several bands of such sorts and plays both in Seattle and on the road. If you're concerned about privacy and human rights, Colm is the founding director of [Digital Rights Ireland](https://www.digitalrights.ie/) and remains active on issues concerning privacy and immigration.
+
+I could go on but I think suffice to say, Colm is a man of many talents and interests. I'm super excited to have Colm on the show, not just because he's a great person to have a conversation with but also because he was my very first guest in my internal podcast at Amazon. Colm was kind enough to talk to me some two years ago then and is repeating that kindness once again by coming on to Folk Stories.
+
+A note that this talk does get slightly technical in a few places (what happens when two engineers talk about engineering) but I would consider the majority of this talk to be accessible regardless of your technical background. There are also show notes for everything we talked about if you want to find out more.
+
+In today's episode, we talk about what its like to be a principal software engineer at Amazon, why Colm went back to school despite having a good job and solid technical skills and matters of music and activism.
+
+Thanks for listening and if you want to leave feedback or nominate folks to the show, please send emails to feedback(at)folkstories.org
+
+### Notes
+- a day in the life of a principal software engineer
+- blockchain and being unburdened from the man
+- prioritizing projects and themes in past work
+- going back to school: motivation and learnings
+- thoughts on dev ops
+- thoughts on engineering and healthy team dynamics
+- juggling writing code with principal responsibilities
+- activism and digital rights
+- irish folk music and finding inspiration
+
+### Links
+- Some tech projects Colm has been involved in
+    - [Amazon CloudFront](https://aws.amazon.com/cloudfront/): Highly programmable, secure content delivery network (CDN)
+    - [Elastic Load Balancer](https://aws.amazon.com/elasticloadbalancing/): Scalable load balancing for L4 and L7 applications
+    - [Amazon Route 53](https://aws.amazon.com/route53/): Highly Available DNS as a service
+    - [Apache HTTP Server Project](https://httpd.apache.org/): the most popular web server on the internet since 1996
+    - [s2n](https://github.com/awslabs/s2n): s2n is a C99 implementation of the TLS/SSL protocols that is designed to be simple, small, fast, and with security as a priority
+- Links to technical concepts discussed
+    - [Blockchain](https://en.wikipedia.org/wiki/Blockchain): open distributed ledger that can record transactions between multiple parties
+    - [Dev Ops](https://en.wikipedia.org/wiki/DevOps)
+    - [Introduction to Computer Networking](https://lagunita.stanford.edu/courses/Engineering/Networking-SP/SelfPaced/about): self paced Stanford class on computer networking
+    - [Cryptography](https://en.wikipedia.org/wiki/Cryptography): practice and study of techniques for secure communications
+    - [Regions and Availability Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions-availability-zones): Concepts relating to how AWS places and isolates its services
+- Everything else
+    - [Travel Ban](https://en.wikipedia.org/wiki/Trump_travel_ban): executive order issued by Donald Trump that limits immigration from a number of Muslim-majority countries
+    - [Digital Rights Ireland](https://www.digitalrights.ie/): dedicated to defending Civil, Human and Legal rights in a digital age
+    - [Tulip Mania](https://en.wikipedia.org/wiki/Tulip_mania)
+    - [Prince](https://en.wikipedia.org/wiki/Prince_(musician)): American singer, songwriter, musician, record producer and filmmaker
+
+### Contact
+- Colm's Twitter: [@colmmacc](https://twitter.com/colmmacc)
