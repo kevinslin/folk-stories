@@ -4,7 +4,7 @@ title: Taking No Shortcuts with Colm MacCárthaigh
 date: 2018-09-24
 tags: [dev, aws]
 explicit: false
-image: "/images/colm_maccarthaigh.png"
+image: "images/colm_maccarthaigh.png"
 mp3: /podcasts/colm_maccarthaigh.mp3
 seconds: 4067
 file_size: 31948
@@ -31,7 +31,7 @@ Thanks for listening and if you want to leave feedback or nominate folks to the 
 - thoughts on engineering and healthy team dynamics
 - juggling writing code with principal responsibilities
 - activism and digital rights
-- irish folk music and finding inspiration
+- Irish folk music and finding inspiration
 
 ### Links
 - Some tech projects Colm has been involved in

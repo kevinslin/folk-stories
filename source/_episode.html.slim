@@ -10,7 +10,7 @@
 
 
   .row
-    article.body = "<img src='#{episode.data.image}' class='profile'/>" + episode.body
+    article.body = "<img src='#{site_url}/#{episode.data.image}' class='profile'/>" + episode.body
 
     = picks_partial(episode)
 

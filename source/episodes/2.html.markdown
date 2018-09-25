@@ -7,7 +7,7 @@ explicit: false
 mp3: /podcasts/jay_hitt.mp3
 seconds: 4151
 file_size: 32563
-image: "/images/jay_hitt.jpg"
+image: "images/jay_hitt.jpg"
 ---
 
 Jay Hitt is a cast member and Managing Director of the Unexpected Productions (UP) Theater. UP is Seattle's longest running Improv Theater and Jay has been there for two of the plus three decades that its been around.

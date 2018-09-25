@@ -8,7 +8,7 @@ mp3: /podcasts/johan_liedgren.mp3
 seconds: 4598
 subtitle: Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures
 file_size: 33792
-image: "/images/johan_liedgren.jpeg"
+image: "images/johan_liedgren.jpeg"
 ---
 
 Johan Liedgren is an award winning film director, consultant and investor/advisor/CEO of over 15 ventures. His clients include major brands like Amazon, Nike and Warner Brothers.
